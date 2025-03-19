@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Newcastle', 'Fowl cholera', 'Bumble foot', 'Fowlpox', 'Coryza', 'Infectios bronchitis', 'Healthy']
+
+
+roboflow:
+  workspace: bright-fabe7
+  project: my-first-project-znbpu-t9h4f
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bright-fabe7/my-first-project-znbpu-t9h4f/dataset/2
