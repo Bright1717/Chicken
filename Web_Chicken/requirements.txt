@@ -1,0 +1,6 @@
+flask
+gunicorn
+opencv-python
+torch
+YOLOV11
+ultralytics
