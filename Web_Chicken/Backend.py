@@ -13,7 +13,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(DETECTION_FOLDER, exist_ok=True)
 
 # โหลดโมเดล YOLO
-model = YOLO(r"../yolov11/best.pt")  # ลบ task="detect" ออก
+model = YOLO("yolov11/best.pt")  # ลบ task="detect" ออก
 
 @app.route('/')
 def index():
